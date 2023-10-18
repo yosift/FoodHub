@@ -18,7 +18,8 @@ class Login : AppCompatActivity() {
 
 
         SignUp.setOnClickListener(View.OnClickListener {
-            startActivity(Intent(this,Sign_Up::class.java))
+            startActivity(Intent(this,Sign_Up
+            ::class.java))
 
         })
 

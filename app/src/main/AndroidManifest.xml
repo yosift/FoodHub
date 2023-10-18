@@ -15,6 +15,15 @@
             android:theme="@style/Theme.FoodHub"
             tools:targetApi="31">
         <activity
+                android:name=".v_code"
+                android:exported="false"/>
+        <activity
+                android:name=".UI.vefification_code"
+                android:exported="false"/>
+        <activity
+                android:name=".Vefification_Code"
+                android:exported="false"/>
+        <activity
                 android:name=".UI.Login"
                 android:exported="false"/>
         <activity
