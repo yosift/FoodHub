@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gradiant_color">#1E1E27</color>
+    <color name="primar_color">#FE724C</color>
+    <color name="another_black">#111719</color>
+    <color name="kohly">#30384F</color>
+    <color name="start_emai_phone_background_color">#91929b</color>
+    <color name="title_onboardin_color_black">#131A38</color>
+    <color name="description_onboardin_color_black">#616772</color>
+    <color name="navigator_color">#FFC529</color>
+    <color name="hint_color">#9796A1</color>
+
+
+
+</resources>

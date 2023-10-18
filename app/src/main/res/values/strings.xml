@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FoodHub</string>
+    <string name="skip_text_btn">Skip</string>
+    <string name="Welcome">Welcome to</string>
+    <string name="FoodHub">FoodHub</string>
+    <string name="favourite">Your favourite foods delivered \nfast at your door.</string>
+    <string name="signsign_in_with_text">sign in with\n</string>
+    <string name="facebook_text">FACEBOOK</string>
+    <string name="google_text">GOOGLE</string>
+    <string name="startwithemail">Start with email or phone</string>
+    <string name="Already_have_Acount">Already have an account?</string>
+    <string name="Signin_text">
+        <u>Sign In</u>
+    </string>
+
+    <string name="log_in">Login</string>
+
+    <string name="title_onboarding_one">Browse your menu and order directly</string>
+    <string name="description_onboarding_one">Our app can send you everywhere, even space. For only $2.99 per month
+    </string>
+    <string name="title_onboarding_two">Even to space with us! Together</string>
+    <string name="description_onboarding_two">Our app can send you everywhere, even space. For only $2.99 per month
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_onboarding_three">Pickup delivery at your door</string>
+    <string name="description_onboarding_three">Our app can send you everywhere, even space. For only $2.99 per month
+    </string>
+    <string name="Sign_Up_text">Sign Up</string>
+    <string name="hit_fullName">Full name</string>
+    <string name="hit_Email">E-mail</string>
+    <string name="hit_Password">Password</string>
+    <string name="Dont_have_an_account">Don’t have an account?</string>
+
+</resources>

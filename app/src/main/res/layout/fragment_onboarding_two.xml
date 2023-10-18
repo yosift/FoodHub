@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".UI.onboarding_two">
+
+
+
+    <ImageView
+            android:id="@+id/on_boarding_two_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/onboarding_two_image"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="465dp"
+                  android:layout_centerHorizontal="true"
+
+    >
+        <TextView
+                android:id="@+id/onbording_title_two"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_onboarding_two"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textColor="@color/title_onboardin_color_black"
+        />
+
+
+        <TextView
+                android:id="@+id/onbording_description_two"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:text="@string/description_onboarding_two"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/description_onboardin_color_black"
+                android:layout_marginTop="7dp"
+                android:gravity="center_horizontal"
+        />
+
+
+
+
+
+        <Button
+                android:id="@+id/next_two"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/onbording_button_style"
+                android:drawableTop="@drawable/arrow"
+                android:padding="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
