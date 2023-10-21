@@ -7,9 +7,6 @@ import androidx.viewpager.widget.ViewPager
 import com.example.foodhub.Adapter.ViewAdapter
 import com.example.foodhub.R
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
-import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
-import kotlinx.android.synthetic.main.activity_onboarding.*
-import java.lang.Exception
 
 class Onboarding : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

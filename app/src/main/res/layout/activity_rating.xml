@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UI.Rating">
+
+
+    <Button
+            android:id="@+id/back_arrow_rating"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@drawable/back_arrow_style"
+            android:drawableTop="@drawable/back_arrow"
+            android:padding="7dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="37dp"
+    />
+
+
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="27dp"
+            android:layout_centerHorizontal="true"
+    >
+    <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+
+
+<ImageView
+        android:id="@+id/food_image_id"
+        android:layout_width="323dp"
+        android:layout_height="146dp"
+        android:src="@drawable/food_image"/>
+
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:src="@drawable/white_circle"
+               android:layout_marginTop="124dp"
+    />
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:src="@drawable/yellow_circle"
+               android:layout_marginTop="112.25dp"
+    />
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:src="@drawable/brand_logo"
+               android:layout_marginTop="147.25dp"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+
+                  android:layout_marginTop="230dp"
+    >
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pizza Hut"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+
+        <TextView
+
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="4102 Pretty View Lanenda"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/hint_color"
+                android:textSize="13sp"
+                android:layout_marginTop="7dp"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Order_Delivered"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="Please Rate Delivery Service"
+          android:textColor="@color/black"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="10dp"
+          />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Good"
+                  android:textSize="22sp"
+                  android:textStyle="bold"
+                  android:textColor="@color/primar_color"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="7dp"/>
+
+        <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:progressTint="@color/yello"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="7dp"
+
+        />
+
+
+        <EditText android:layout_width="323dp" android:layout_height="168dp"
+                  android:hint="Write review"
+                  android:background="@drawable/edit_text_style"
+                  android:layout_gravity="center_horizontal"
+                  android:textColorHint="@color/hint_color"
+                  android:inputType="textMultiLine"
+                  android:minLines="4"
+                  android:gravity="top|start"
+                  android:paddingStart="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingEnd="10dp"
+                  android:scrollbars="vertical"
+                  android:scrollbarStyle="insideInset"
+                  android:fadeScrollbars="false"
+
+
+        />
+
+
+        <Button android:layout_width="248dp" android:layout_height="60dp"
+                android:background="@drawable/onbording_button_style"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="SUBMIT"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

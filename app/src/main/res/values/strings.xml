@@ -31,5 +31,12 @@
     <string name="hit_Email">E-mail</string>
     <string name="hit_Password">Password</string>
     <string name="Dont_have_an_account">Don’t have an account?</string>
+    <string name="Vefification_Code_Text">Vefification Code</string>
+    <string name="description_for_vcode">Please type the verification code sent to prelookstudio@gmail.com</string>
+    <string name="Idontrecevie">"I don’t recevie a code! "</string>
+    <string name="Please_send_text">Please resend</string>
+    <string name="Resset_Password_Text">Resset Password</string>
+    <string name="description_for_Resset_Password">Please enter your email address to request a password reset</string>
+    <string name="Order_Delivered">\u2022 Order Delivered </string>
 
 </resources>

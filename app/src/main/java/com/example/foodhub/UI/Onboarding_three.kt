@@ -6,8 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import com.example.foodhub.R
-import kotlinx.android.synthetic.main.fragment_onboarding_three.view.*
+
 
 class onboarding_three : Fragment() {
 
@@ -21,8 +22,9 @@ class onboarding_three : Fragment() {
         savedInstanceState: Bundle?): View? {
 
         var view= inflater.inflate(R.layout.fragment_onboarding_three, container, false)
+        var next_third=view.findViewById<Button>(R.id.next_third)
 
-        view.next_third.setOnClickListener(View.OnClickListener {
+        next_third.setOnClickListener(View.OnClickListener {
             view.context.startActivity(Intent(context, Sign_Up::class.java))
         })
 
