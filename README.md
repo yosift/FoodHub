@@ -42,4 +42,3 @@ The activities included in this repository collectively form the user interface 
 
 ---
 
-Feel free to further customize this README.md to include additional information or details about your FoodHub app. Happy coding!
