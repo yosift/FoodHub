@@ -10,7 +10,8 @@ Welcome to FoodHub, your ultimate destination for discovering and ordering delic
 4. [Rating](#rating)
 5. [Verification Code](#verification-code)
 6. [Welcome](#welcome)
-7. [Usage](#usage)
+7. [Technologies Used](#technologies-used)
+8. [Usage](#usage)
 
 ## Introduction
 
@@ -35,6 +36,16 @@ The `vefification_code` activity is a crucial part of the user authentication pr
 ## Welcome
 
 The `welcome` activity serves as the entry point for users accessing the FoodHub app for the first time or returning users who need to log in. It provides options for users to sign up for new accounts, proceed to the onboarding process, or sign in to existing accounts.
+
+## Technologies Used
+
+The FoodHub app is built using the following technologies:
+- Kotlin
+- Android SDK
+- XML
+- Firebase (for backend services)
+- Google Maps API (for location services)
+- Glide (for image loading)
 
 ## Usage
 
